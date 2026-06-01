@@ -14,6 +14,14 @@ The primary goal of this project was to build an end-to-end security monitoring 
 
 ---
 
+## Project Walkthrough Video
+
+This video demonstrates the Enterprise SOC Lab in action, including Active Directory, Splunk Enterprise, Sysmon monitoring, centralized log collection, and threat hunting using custom SPL searches.
+
+[![Enterprise SOC Lab Walkthrough](https://img.youtube.com/vi/Ae4fnbrk93w/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ae4fnbrk93w)
+
+---
+
 ## Full Documentation
 
 📄 **Download the complete project report:**
