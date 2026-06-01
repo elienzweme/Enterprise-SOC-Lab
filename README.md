@@ -1,5 +1,13 @@
 # Enterprise SOC Lab
 
+# Enterprise SOC Lab
+
+![Platform](https://img.shields.io/badge/Platform-VMware-blue)
+![SIEM](https://img.shields.io/badge/SIEM-Splunk-green)
+![Telemetry](https://img.shields.io/badge/Telemetry-Sysmon-orange)
+![Windows](https://img.shields.io/badge/Windows-Server%202025-blue)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
 ## Overview
 
 This project demonstrates the design, deployment, and operation of an Enterprise Security Operations Center (SOC) Lab built using VMware Workstation Pro. The lab simulates a real-world enterprise environment by integrating Active Directory, Windows endpoints, Sysmon, Splunk Enterprise, and Splunk Universal Forwarders to provide centralized log collection, security monitoring, threat hunting, and incident investigation capabilities.
@@ -12,13 +20,15 @@ The primary goal of this project was to build an end-to-end security monitoring 
 
 📄 **Download the complete project report:**
 
-https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/docs/Enterprise%20SOC%20Lab%20Project.pdf
+[Enterprise SOC Lab Project PDF](docs/Enterprise%20SOC%20Lab%20Project.pdf)
 
 ---
 
 ## Lab Architecture
 
-https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/diagrams/Architecture-Overview.png
+The following diagram illustrates the overall SOC lab architecture and communication flow between systems.
+
+![Lab Architecture](diagrams/Architecture-Overview.png)
 
 ### Virtual Machines
 
@@ -34,7 +44,9 @@ https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/diagrams/Architecture
 
 ## Security Monitoring Pipeline
 
-https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/diagrams/Security-Monitoring-Pipeline.png
+The security monitoring pipeline collects telemetry from Windows endpoints, forwards logs through Splunk Universal Forwarders, and enables centralized threat hunting within Splunk Enterprise.
+
+![Security Monitoring Pipeline](diagrams/Security-Monitoring-Pipeline.png)
 
 ### Pipeline Flow
 
@@ -66,7 +78,9 @@ This pipeline enables security events generated on Windows systems to be collect
 
 ## Technologies Used
 
-https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/diagrams/Tools-Used.png
+The following technologies were used to build and operate the SOC environment.
+
+![Tools Used](diagrams/Tools-Used.png)
 
 | Tool | Purpose |
 |--------|---------|
@@ -86,7 +100,9 @@ https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/diagrams/Tools-Used.p
 
 ## Key Accomplishments
 
-https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/diagrams/Key-Accomplishments.png
+Major accomplishments achieved during the project.
+
+![Key Accomplishments](diagrams/Key-Accomplishments.png)
 
 - Built a multi-host Enterprise SOC environment using VMware Workstation Pro.
 - Configured Active Directory Domain Services using Windows Server 2025.
@@ -183,7 +199,9 @@ sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
 
 ## Threat Hunting
 
-https://github.com/elienzweme/Enterprise-SOC-Lab/blob/main/diagrams/Advanced-Threat-Hunting.png
+Custom SPL searches were developed to identify process creation events, validate endpoint telemetry, and perform threat hunting investigations.
+
+![Advanced Threat Hunting](diagrams/Advanced-Threat-Hunting.png)
 
 A threat hunting workflow was developed to identify process execution activity across monitored hosts.
 
