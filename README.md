@@ -1,7 +1,5 @@
 # Enterprise SOC Lab
 
-# Enterprise SOC Lab
-
 ![Platform](https://img.shields.io/badge/Platform-VMware-blue)
 ![SIEM](https://img.shields.io/badge/SIEM-Splunk-green)
 ![Telemetry](https://img.shields.io/badge/Telemetry-Sysmon-orange)
