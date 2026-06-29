@@ -366,3 +366,4 @@ GitHub: https://github.com/elienzweme
 LinkedIn: https://www.linkedin.com/in/elie-nzweme-34a577239/
 
 ---
+> **Disclaimer:** This project was conducted within an isolated VMware lab environment for educational, research, and professional portfolio purposes. No production systems or third-party networks were assessed.
