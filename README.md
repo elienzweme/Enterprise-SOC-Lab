@@ -10,6 +10,8 @@
   <img src="docs/enterprise-soc-lab.png" alt="Enterprise SOC Lab Cover" width="900">
 </p>
 
+---
+
 ## Overview
 
 This project demonstrates the design, deployment, and operation of an Enterprise Security Operations Center (SOC) Lab built using VMware Workstation Pro. The lab simulates a real-world enterprise environment by integrating Active Directory, Windows endpoints, Sysmon, Splunk Enterprise, and Splunk Universal Forwarders to provide centralized log collection, security monitoring, threat hunting, and incident investigation capabilities.
